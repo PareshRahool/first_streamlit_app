@@ -1,6 +1,6 @@
 #requirement.txt
-
-snowflake-connector-python
+pip install -r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.7.9/tested_requirements/requirements_36.reqs
+#snowflake-connector-python
 #streamlit==1.11.0
 
 #-r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.7.9/tested_requirements/requirements_37.reqs 2
