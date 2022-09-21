@@ -7,7 +7,7 @@ import requests
 def get_fruitvice_data(this_fruit_choice):
     fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
     fruitvice_normalized=pandas.json_normalize(fruityvice_response.json())
-    returm fruitvice_normalized
+    return fruitvice_normalized
     
 streamlit.title('My Parents New Healthy Diner')
 
