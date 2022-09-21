@@ -1,12 +1,16 @@
 #requirement.txt
 #pip install -r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.7.9/tested_requirements/requirements_36.reqs
-snowflake-connector-python==2.7.9
+#snowflake-connector-python==2.7.9
 #streamlit==1.11.0
 #protobuf==3.20.1
 #python==3.9
 #-r https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/v2.7.9/tested_requirements/requirements_37.reqs 2
 #snowflake-connector-python==2.7.9
 
-cffi==1.15.0
-pyarrow==6.0.1
-charset-normalizer~=2.0.0
+#cffi==1.15.0
+#pyarrow==6.0.1
+#charset-normalizer~=2.0.0
+
+charset-normalizer==2.0.12
+
+snowflake-connector-python==2.7.9
